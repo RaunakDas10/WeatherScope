@@ -2,6 +2,8 @@
 
 A stunning, fully responsive, cinematic weather dashboard built with React, Vite, and Tailwind CSS. 
 
+[**Live Demo**](https://weather-scope-rho.vercel.app/)
+
 WeatherScope visualizes real-time weather data with dynamic glassmorphism aesthetics, utilizing the OpenWeatherMap API for accurate metrics and the Google Gemini Imagen API (with a Pollinations AI fallback) to generate beautiful, contextual AI backgrounds that match the weather conditions of the selected city.
 
 ## Features

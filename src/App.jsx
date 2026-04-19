@@ -14,7 +14,7 @@ export default function App() {
 
   return (
     <div
-      className="bg-storm w-full min-h-screen overflow-y-auto overflow-x-hidden relative flex items-start lg:items-center justify-center p-4 lg:p-8"
+      className="bg-storm w-full min-h-screen relative flex items-start lg:items-center justify-center p-4 lg:p-8"
       style={{
         fontFamily: 'Inter, sans-serif',
       }}
