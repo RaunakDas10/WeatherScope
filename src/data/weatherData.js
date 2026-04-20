@@ -61,7 +61,7 @@ export function mapConditionTitle(condition) {
     'Snow':   'Heavy Snow',
     'Hazy':   'Mist & Haze',
     'Foggy':  'Dense Fog',
-    'Clear':  'Clear Sky',
+    'Clear':  'Sunny',
     'Cloudy': 'Partly Cloudy',
     'Windy':  'Strong Winds',
   };
