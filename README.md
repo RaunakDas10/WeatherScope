@@ -53,7 +53,11 @@ WeatherScope visualizes real-time weather data with dynamic glassmorphism aesthe
 
 ## Developer
 
-Developed by **[Raunak Das](https://github.com/RaunakDas10)**.
+<p align="center">
+  <img src="https://github.com/RaunakDas10.png" width="120" style="border-radius: 50%;" alt="Raunak Das"/>
+  <br/>
+  Developed by <b>[Raunak Das](https://github.com/RaunakDas10)</b>
+</p>
 
 ## License
 
