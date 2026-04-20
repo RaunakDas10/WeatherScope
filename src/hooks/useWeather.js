@@ -108,8 +108,8 @@ function buildState(current, forecastList, findList, airData) {
       temp: Math.round(current.main.temp),
       feelsLike: Math.round(current.main.feels_like),
       tempChange: '+' + Math.round(current.main.temp - current.main.temp_min),
-      humidity: (current.main.humidity / 10).toFixed(1),
-      wind: Math.round(current.wind.speed * 3.6),
+      humidity: current.main.humidity,
+      wind: Math.round(current.wind.speed * 3.6), // km/h
       windDir: degToCompass(current.wind.deg),
       condition,
       conditionTitle,

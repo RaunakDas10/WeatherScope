@@ -98,7 +98,7 @@ export default function Sidebar({ data, searchCity }) {
           {current.humidity}%
         </span>
         <span style={{ color: 'rgba(255,255,255,0.6)', fontSize: 10 }}>
-          Wind {current.windDir} {current.wind} mph
+          Wind {current.windDir} {current.wind} km/h
         </span>
       </motion.div>
 
