@@ -47,6 +47,7 @@ export function mapCondition(weatherId) {
   if (weatherId >= 300 && weatherId < 400) return 'Rainy';
   if (weatherId >= 500 && weatherId < 600) return 'Rainy';
   if (weatherId >= 600 && weatherId < 700) return 'Snow';
+  if (weatherId === 701 || weatherId === 721) return 'Hazy';
   if (weatherId >= 700 && weatherId < 800) return 'Foggy';
   if (weatherId === 800) return 'Clear';
   if (weatherId > 800)  return 'Cloudy';
@@ -58,6 +59,7 @@ export function mapConditionTitle(condition) {
     'Storm':  'Storm with Heavy Rain',
     'Rainy':  'Rain with Overcast Clouds',
     'Snow':   'Heavy Snow',
+    'Hazy':   'Mist & Haze',
     'Foggy':  'Dense Fog',
     'Clear':  'Clear Sky',
     'Cloudy': 'Partly Cloudy',
